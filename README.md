@@ -1,5 +1,5 @@
 <h2 align="center">
-    consys
+    npm-template
 </h2>
 
 <p align="center">
