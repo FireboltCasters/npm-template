@@ -32,12 +32,12 @@
 </p>
 
 <p align="center">
-    Constraint System
+    npm-template
 </p>
 
 ## About
 
-A system for checking constraints.
+A template for creating npm packages
 
 ## Contributors
 
