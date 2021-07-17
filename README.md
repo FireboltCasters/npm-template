@@ -39,6 +39,50 @@
 
 A template for creating npm packages
 
+## How to setup your project
+
+First and most importantly, edit the setup.json file to match your project:
+
+```javascript
+{
+  "package": {
+    "name": "<packageName>",
+    "description": "<packageDescription>",
+    "keywords": [
+      "npm-template"
+    ],
+    "repositoryURL": "https://github.com/FireboltCasters/npm-template.git",
+    "author": "Steffen Droppelmann",
+    "contributors": [
+      {
+        "name": "Nils Baumgartner",
+        "email": "nilsbaumgartner1994@gmail.com",
+        "url": "https://github.com/FireboltCasters"
+      },
+      {
+        "name": "Steffen Droppelmann",
+        "email": "steffen.droppelmann@gmail.com",
+        "url": "https://github.com/FireboltCasters"
+      }
+    ],
+    "license": "MIT"
+  },
+  "sonar": {
+    "projectKey": "ExampleKey",
+    "organization": "ExampleOrganization"
+  }
+}
+```
+
+Then, run the following command:
+(Note: After running this command, the setup files will be deleted)
+
+```
+npm run setup
+```
+
+Thats it, everything should work now.
+
 ## Contributors
 
 The FireboltCasters
