@@ -24,8 +24,8 @@ let sonarConfig = "";
 sonarConfig += "sonar.projectKey=" + config.sonar.projectKey + "\n";
 sonarConfig += "sonar.organization=" + config.sonar.organization + "\n";
 sonarConfig += "sonar.javascript.lcov.reportPaths=./coverage/lcov.info" + "\n";
-sonarConfig += "sonar.coverage.exclusions=src/tests/**/*,src/ignoreCoverage/**/*" + "\n";
-sonarConfig += "sonar.exclusions=src/tests/**/*,src/ignoreCoverage/**/*" + "\n";
+sonarConfig += "sonar.coverage.exclusions=src/tests/**/*,src/ignoreCoverage/**/*,babel.config.js" + "\n";
+sonarConfig += "sonar.exclusions=src/tests/**/*,src/ignoreCoverage/**/*,babel.config.js" + "\n";
 sonarConfig += "sonar.qualitygate.wait=true" + "\n";
 sonarConfig += "sonar.qualitygate.timeout=300" + "\n";
 
