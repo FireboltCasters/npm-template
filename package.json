@@ -1,5 +1,5 @@
 {
-  "name": "<packageName>",
+  "name": "@fireboltcasters/<packageName>",
   "version": "0.0.1",
   "description": "<packageDescription>",
   "main": "index.js",
