@@ -75,6 +75,7 @@ First and most importantly, edit the setup.json file to match your project. For 
 ```
 
 Then, run the following command:
+(Note: Have "rimraf" installed or run "npm install" before)
 (Note: After running this command, the setup files will be deleted)
 
 ```
