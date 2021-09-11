@@ -41,7 +41,7 @@ A template for creating npm packages
 
 ## How to setup your project
 
-First and most importantly, edit the setup.json file to match your project:
+First and most importantly, edit the setup.json file to match your project. For sonar see section "Sonar" in this ReadMe.:
 
 ```javascript
 {
@@ -82,6 +82,17 @@ npm run setup
 ```
 
 Thats it, everything should work now.
+
+## Sonar
+
+- Visit: https://sonarcloud.io/
+- Select your profile or organisation.
+- Select the GitHub project: https://sonarcloud.io/projects/create
+- Configure "With GitHub Actions"
+- Add the secret to your repository
+- "Skip" step 2
+- Copy and paste the values of "sonar.projectKey" and "sonar.organization" into the setup.json
+
 
 ## Contributors
 
