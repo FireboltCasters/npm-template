@@ -107,7 +107,6 @@ For the correct upload to npm and sonar and keep everything working correctly, t
 ```
 
 Then, run the following command:
-(Note: Have "rimraf" installed or run "npm install" before)
 (Note: After running this command, the setup files will be deleted)
 
 ```
