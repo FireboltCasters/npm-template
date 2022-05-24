@@ -65,7 +65,7 @@ Therefore we need to get credentials for our project. Create a Sonar-Account if 
 - Visit: https://sonarcloud.io/
 - Select your profile or organisation.
 - Select the GitHub project: https://sonarcloud.io/projects/create
-- Configure "With GitHub Actions"
+- Configure "With GitHub Actions" and disable SonarCloud Automatic Analysis
 - Follow Step 1: Add the secret to your repository
 - "Skip" step 2
 - Copy and paste the values of "sonar.projectKey" and "sonar.organization" into the setup.json
